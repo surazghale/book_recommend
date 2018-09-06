@@ -14,6 +14,9 @@
         {{Form::text('body','',['class'=>'form-control','placeholder'=>'enter your rating here...'])}}
 </div>
 
+
+
+
 {{Form::submit('Submit',['class'=>'btn btn-primary'])}}
 
 

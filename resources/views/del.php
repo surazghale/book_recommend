@@ -1,0 +1,2 @@
+@endforeach
+{{-- {{$posts->links()}} --}}

@@ -13,11 +13,9 @@
 
 Route::get('/','PagesController@index');
 
-Route::get('/about',function(){
-    return view('pages/about');
-});
+
 use App\Post;
-Route::resource('posts','PostsController');
+Route::resource('/posts','PostsController');
 
 
 
@@ -27,4 +25,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+

@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+body
+{
+	font-family: Garamond, Helvetica, sans-serif;
+	font-size: 18px;	
+}
+.nav
+{
+	padding-bottom: 40px;
+	font-family: Utopia;
+}
+h2{
+		
+	font-size: 30px;
+	padding:20px;
+	margin: 0;
+}
+
+
+
+.home_brownpaper_bg
+{
+	background-image : url(home_brownpaper_bg.png);
+	background-repeat : no-repeat;
+	  font-family : Baskerville Old Face;
+  	  font-size : 39px;
+	  text-align:center;
+	  max-height:360px;
+	  padding: 100px 0 ;
+	  margin: 0.5em 0;
+}
+.home_icon
+{
+	background-image : url(home_icon.png);
+	background-repeat : no-repeat;
+}
+	
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background : #42E3BC;
+	background : rgba(66, 227, 188, 1);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+  
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container{
+	margin: 0 15px 0 15px;
+	
+}
+.home_about{
+	text-align: center;
+	padding:3em;
+}
+
+.welcome{
+	text-align: center;
+	padding: 2em;
+}
+
+.wrapper
+{
+
+	
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.wrapper > div{
+	padding: 2em;
+	text-align: center;
+}
+.matrix
+{
+	background : #42E3BC;
+	background : rgba(66, 227, 188, 1);
+	
+}
+.home_footer{
+    padding: 2em;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.home_subfooter
+{
+	background : #3FA9F5;
+	background : rgba(63, 169, 245, 1);
+		 padding: 2em;
+   		 color: #fff;
+   		 text-align: center;
+		 margin: 2em 0 0 0;
+}
+
+
+.card {
+   		 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	 	 transition: 0.3s;
+    		 width: 100%;
+    		 height:auto;
+    		 border-radius: 8px;
+		 background: white;
+		}
+
+	.card:hover {
+    		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+	.grid-profile >i mg {
+  	  	border-radius: 8px 8px 0 0;
+		
+		}
+
+	.card_body {
+   	 padding: 2px 16px;
+	}
+	
+	.grid-container{
+ 		 display: grid;
+  		grid-template-columns: 1fr 4fr;
+		border: 2px solid black;
+		grid-gap: 15px;
+		padding: 0 1em;
+	}
+	
+	.grid-profile{
+		
+		padding: 2em;
+   		 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		background : #AAE8C5;
+		font-size: 25px ;
+		
+		
+	}
+	.grid-body{
+		
+   		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		display: grid;
+  		grid-template-rows: 1fr 6fr 1fr 6fr;
+		background : #ECEBE4;
+		padding: 0 1em;
+		
+		
+	}
+	.bookself {
+		 display: grid;
+  		grid-template-columns: 1fr 5fr 5fr 5fr 1fr;
+		grid-gap:15px;
+		text-align: center;
+	}
