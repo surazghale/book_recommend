@@ -92,7 +92,7 @@
                         
                         .grid-container{
                             display: grid;
-                            grid-template-columns: 1fr 4fr;
+                            
                             //border: 2px solid black;
                             grid-gap: 15px;
                             padding: 0 1em;
@@ -161,9 +161,9 @@
                             @if (Auth::guest())
                             <li class="active"><a href="/home">Home</a></li>
                             @else
-                            <li class="active"><a href="/home">Home</a></li>
-                            <li><a href="/posts">Profile</a></li>
-                            <li><a href="/posts/create">Add </a></li>
+                            <li class="active"><a href="{{ route('home') }}">Home</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Add </a></li>
                             @endif
                     </ul>
                     
